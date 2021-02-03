@@ -4,7 +4,7 @@ dist: xenial
 nodejs: 
     - 10
     - node  #latest stable Node.js release
-	- lts/*
+    - lts/*
 
 arch:
    - amd64
