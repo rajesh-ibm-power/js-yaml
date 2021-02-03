@@ -1,0 +1,14 @@
+arch:
+   - amd64
+   - ppc64le   
+
+addons:
+   apt:
+    update: true
+    packages: 
+       - build-essential nodejs: 
+    - 10
+    - node  #latest stable Node.js release
+    - lts/* #latest LTS Node.js release
+       - npm 
+       - wget
