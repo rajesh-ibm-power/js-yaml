@@ -1,4 +1,7 @@
 language: node_js
+nodejs: 
+    - 10
+    - node  #latest stable Node.js release
 
 arch:
    - amd64
@@ -8,9 +11,6 @@ addons:
    apt:
     update: true
     packages: 
-       - build-essential nodejs: 
-    - 10
-    - node  #latest stable Node.js release
-    - lts/* #latest LTS Node.js release
+       - build-essential 
        - npm 
        - wget
